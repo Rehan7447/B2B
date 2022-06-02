@@ -173,7 +173,40 @@
   margin-bottom: 100px;
 }
 
-.paginateNav {
+table th,
+table td {
+  text-align: center;
+}
+
+table tbody tr {
+  display: none;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #bef2f5;
+}
+
+.pagination-container {
   display: flex;
   justify-content: center;
+}
+
+.pagination li {
+  padding: 5px 10px;
+  margin-top: 10px;
+  border: 1px solid rgb(187, 187, 187);
+}
+
+.pagination li:hover {
+  cursor: pointer;
+  background-color: #bef2f5;
+}
+
+.pagePrev,
+.pageNext {
+  color: rgb(0, 106, 255);
+}
+
+.pagination .active {
+  background-color: aliceblue;
 }
