@@ -1,0 +1,29 @@
+.auction-heading{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.callender-select-container{
+    margin-bottom: 50px;
+}
+.c1-auction-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.c-content{
+    font-weight: bold;
+}
+.space{
+height: 400px;
+}
+/* .c1-auction-btn button{
+   padding-top: 10px;
+   padding-bottom: 10px;
+} */
+@media(max-width:1600px){
+    .callender-hero-img{
+        width: 100% !important;
+        height: auto !important;
+    }
+}
