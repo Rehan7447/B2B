@@ -1,0 +1,60 @@
+.loginMain {
+  margin-top: 2%;
+}
+.loginFormImage {
+  width: 150px;
+  margin: auto auto 20px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10%;
+}
+.loginForm {
+  width: 40%;
+  min-width: 340px;
+  margin: auto;
+  background-color: #f5f4f4;
+  padding: 30px;
+}
+
+.loginHeading {
+  text-align: center;
+}
+
+.loginHeading a {
+  color: black;
+}
+
+.loginForm input {
+  width: 80%;
+  margin: auto;
+}
+
+.orLogin {
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+}
+
+.orLogin hr {
+  margin: 12px 5px auto;
+}
+
+.buttonLogin {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.loginBottom {
+  margin-top: 100px;
+}
+
+.subBottom {
+  margin: auto;
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
+}
+
+.subBottom a {
+  color: black;
+}

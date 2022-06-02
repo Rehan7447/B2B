@@ -1,0 +1,67 @@
+.signUpMain {
+  width: 40%;
+  min-width: 340px;
+  margin: 5% auto 2%;
+  background-color: #f5f4f4;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.signUpImage {
+  justify-content: center;
+}
+
+.signUpImage img {
+  width: 100px;
+  margin: auto 20px;
+}
+
+.signUpImage h3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.signUpHeading {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.signUpHeading a {
+  color: black;
+}
+
+.orSignUp {
+  margin: 20px auto;
+  text-align: center;
+  justify-content: center;
+}
+
+.orSignUp button {
+  margin: 20px auto;
+  min-width: 300px;
+}
+
+.orSignUp hr {
+  margin: 10px auto;
+}
+
+.signUpButton {
+  text-align: center;
+  margin: 40px auto 20px;
+}
+
+.signUpBottom {
+  width: 40%;
+  min-width: 340px;
+  margin: 0 auto 7%;
+  background-color: #f5f4f4;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.signUpBottom a {
+  color: black;
+  margin: auto 20px;
+}

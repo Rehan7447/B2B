@@ -37,3 +37,7 @@
 .filterOptions .dropDownButton {
   width: 100%;
 }
+
+.filterOptions .dropdown-menu{
+    width: 93%;
+}
