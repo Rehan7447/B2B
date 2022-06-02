@@ -7,6 +7,40 @@
 .header a {
   color: black;
 }
+
+.contentIndex {
+  width: 90%;
+}
+
+.indexContentTop {
+  /* display: flex; */
+  border-bottom: 1px solid black;
+}
+
+.indexTopDetail {
+  margin: 20px;
+}
+
+.indexButtonsTop {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.indexButtonsTop button {
+  margin: auto 20px;
+}
+
+.filterOptions {
+  margin: 20px auto;
+}
+
+.filterOptions .dropDownButton {
+  width: 100%;
+}
+
+.filterOptions .dropdown-menu {
+  width: 93%;
+}
 .calender-para-with-icons {
   display: flex;
   flex-direction: row;
