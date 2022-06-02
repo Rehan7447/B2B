@@ -1,0 +1,27 @@
+.mainPD {
+  width: 80%;
+  margin: auto;
+}
+.detailsTop {
+  display: flex;
+  border-bottom: 2px solid black;
+}
+
+.detailsTop p {
+  padding: 2px;
+  margin: 2px 5px;
+}
+
+.detailsTop h3 {
+  margin-top: 10px;
+}
+
+.linePD {
+  border-left: 1px solid black;
+}
+
+.detailsCheckSign {
+  background-color: rgba(162, 158, 158, 0.626);
+  padding: 10px 10px 5px;
+  border-radius: 0px 0px 10px 10px;
+}

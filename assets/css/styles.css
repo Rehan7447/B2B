@@ -7,37 +7,145 @@
 .header a {
   color: black;
 }
-
-.contentIndex {
-  width: 90%;
+.calender-para-with-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 15px;
 }
-
-.indexContentTop {
-  /* display: flex; */
-  border-bottom: 1px solid black;
+.calender-para-with-icons i {
+  margin-right: 10px;
 }
-
-.indexTopDetail {
-  margin: 20px;
+.calender-para-with-icons p {
+  margin-bottom: 0px;
 }
-
-.indexButtonsTop {
+.calender-hero-heading {
+  margin-top: 20px;
+}
+.callender-hero-img {
+  width: 400px;
+  height: 400px;
+}
+.calender-button-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  align-items: center;
+}
+.calender-button-container button {
+  padding: 10px 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  background-color: white;
+}
+select {
+  padding: 10px 8% !important;
+  margin-left: 5px;
+}
+.callender-select-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.callender-product-container {
+  margin-top: 30px;
+}
+.card-btn {
+  padding: 10px 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  background-color: white;
+  margin-top: 20px;
+}
+.card-price-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card-price-section p {
+  margin-bottom: 5px;
+}
+.price-title {
+  font-weight: bold;
+}
+.card-title {
+  margin-bottom: 15px;
+}
+.card-btn1 {
+  padding: 10px 30%;
+}
+.footer {
+  border-top: 1px solid black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.footer-links a {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.footer-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+.footer-icons i {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.calender-slider-container {
+  border: 1px solid black;
+}
+.mycard {
+  margin-top: 20px;
+  margin-bottom: 20px;
   text-align: center;
-  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
-.indexButtonsTop button {
-  margin: auto 20px;
+.card-btn2 {
+  padding: 10px 5%;
 }
-
-.filterOptions {
-  margin: 20px auto;
+.bid-btn {
+  background-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
-
-.filterOptions .dropDownButton {
-  width: 100%;
+.card-slider-t {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
-
-.filterOptions .dropdown-menu{
-    width: 93%;
+.calender-slider-container {
+  margin-top: 30px;
+}
+.my-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.arrow-icons {
+  display: flex;
+}
+.fa-chevron-left {
+  margin-right: 50px !important;
+}
+.arrow-icons i {
+  margin-right: 10px;
 }

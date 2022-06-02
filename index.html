@@ -54,81 +54,211 @@
         </div>
       </div>
     </nav>
-    <div class="contentIndex container-fluid">
-      <div class="indexContentTop row">
-        <img class="col-md-3" src="./assets/images/dummy.png" alt="auction_image" />
-        <div class="indexTopDetail col-md-8">
-          <h2>Auction Title</h2>
-          <p>
-            <i class="fa fa-clock-o" aria-hidden="true"></i> START Fri Nay 27
-            17:00:00
-          </p>
-          <p>
-            <i class="fa fa-hourglass" aria-hidden="true"></i> END Fri May 30
-            17:00:00
-          </p>
-          <p>
-            <i class="fa fa-map-marker" aria-hidden="true"></i> LOCATION
-            Seattle, WA
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam
-            numquam optio doloremque obcaecati at molestias excepturi saepe unde
-            ipsum, velit nesciunt reprehenderit eveniet. Suscipit quos eveniet,
-            eaque repellendus quam cumque?
-          </p>
-          <div class="indexButtonsTop" >
-            <button class="btn btn-primary" >Login To Bid</button>
-            <button class="btn btn-primary">Watch Auction</button>
+    <div class="callender-section">
+      <div class="container">
+        <div class="callender-hero-container">
+          <div class="row">
+            <div class="col-md-6">
+              <img
+                class="callender-hero-img"
+                src="./assets/images/download.png"
+              />
+            </div>
+            <div class="col-md-6">
+              <div class="callender-content-container">
+                <h1 class="calender-hero-heading">AUCTION NAME/TITLE</h1>
+                <div class="calender-para-with-icons">
+                  <i class="fa fa-clock-o" aria-hidden="true"></i>
+                  <p>START Fri May 27 17:00:00</p>
+                </div>
+                <div class="calender-para-with-icons">
+                  <i class="fa fa-hourglass" aria-hidden="true"></i>
+                  <p>END Fri May 30 17:00:00</p>
+                </div>
+                <div class="calender-para-with-icons">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  <p>LOCATION Seattle, WA</p>
+                </div>
+                <div class="calender-para-with-icons">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Natus cum iusto non repudiandae impedit optio ipsa?
+                    Consequuntur, voluptas temporibus quae nesciunt voluptates
+                    autem sit minima unde qui. Veritatis, earum tenetur?
+                  </p>
+                </div>
+                <div class="calender-button-container">
+                  <button>Login To Bid</button>
+                  <button>Watch Auction</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="callender-select-container">
+          <i class="fa fa-list fa-2x" aria-hidden="true"></i>
+          <select name="cars" id="cars">
+            <option value="volvo">Type to search</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+          </select>
+          <select name="cars" id="cars">
+            <option value="volvo">Category</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+          </select>
+          <select name="cars" id="cars">
+            <option value="volvo">Price</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+          </select>
+          <select name="cars" id="cars">
+            <option value="volvo">Brand</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+          </select>
+        </div>
+        <div class="callender-product-container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="./assets/images/dummy.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Product title</h5>
+                  <div class="card-price-section">
+                    <p class="price-title">Starting Price</p>
+                    <p>$3000</p>
+                  </div>
+                  <div class="card-price-section">
+                    <p class="price-title">Last Bid</p>
+                    <p>$21000</p>
+                  </div>
+                  <div class="card-price-section">
+                    <p class="price-title">Ends in</p>
+                    <p>21h:33m:12s</p>
+                  </div>
+                  <button class="card-btn card-btn1">Place a Bid</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="./assets/images/dummy.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Product title</h5>
+                  <div class="card-price-section">
+                    <p class="price-title">Starting Price</p>
+                    <p>$1100</p>
+                  </div>
+                  <div class="card-price-section">
+                    <p class="price-title">Last Bid</p>
+                    <p>-</p>
+                  </div>
+                  <div class="card-price-section">
+                    <p class="price-title">Ends in</p>
+                    <p>21h:33m:12s</p>
+                  </div>
+                  <button class="card-btn card-btn1">Place a Bid</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="./assets/images/dummy.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Product title</h5>
+                  <div class="card-price-section">
+                    <p class="price-title">Starting Price</p>
+                    <p>$3000</p>
+                  </div>
+                  <div class="card-price-section">
+                    <p class="price-title">Last Bid</p>
+                    <p>$21000</p>
+                  </div>
+                  <div class="card-price-section">
+                    <p class="price-title">Ends in</p>
+                    <p>21h:33m:12s</p>
+                  </div>
+                  <button class="card-btn">Sold</button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="row filterOptions " >
-        <div class="col-md-1">
-          <i>1</i>
-          <i>2</i>
+    </div>
+    <div class="container">
+      <div class="calender-slider-container">
+        <div class="row">
+          <div class="col-4 my-arrow" style="border-right: 1px solid black">
+            <div class="arrow-icons">
+              <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
+              <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+            </div>
+          </div>
+          <div class="col-8">
+            <div class="row">
+              <div class="col-6"></div>
+              <div class="col-6">
+                <div class="card mycard" style="width: 18rem">
+                  <div class="card-body">
+                    <h5 class="card-title">Start price</h5>
+
+                    <p>$21000</p>
+
+                    <h5 class="card-title">Last Bid</h5>
+
+                    <p>$31000</p>
+
+                    <div class="card-slider-t">
+                      <p>Time Left</p>
+                    </div>
+                    <div class="card-slider-t">
+                      <p>21h:33m:12s</p>
+                    </div>
+                    <div class="card-slider-t">
+                      <p>Location</p>
+                    </div>
+                    <div class="card-slider-t">
+                      <p>Frankfurl, DE</p>
+                    </div>
+                    <button class="bid-btn">Place a Bid</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="dropdown col-md-3">
-          <button class="dropDownButton btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-            Type to search
-          </button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            <li><a class="dropdown-item" href="#">Type 1</a></li>
-            <li><a class="dropdown-item" href="#">Type 2</a></li>
-            <li><a class="dropdown-item" href="#">Type 3</a></li>
-          </ul>
-        </div>
-        <div class="dropdown col-md-3">
-          <button class="dropDownButton btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-            Category
-          </button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            <li><a class="dropdown-item" href="#">Cat 1</a></li>
-            <li><a class="dropdown-item" href="#">Cat 2</a></li>
-            <li><a class="dropdown-item" href="#">Cat 3</a></li>
-          </ul>
-        </div>
-        <div class="dropdown col-md-3">
-          <button class="dropDownButton btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-            Price
-          </button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            <li><a class="dropdown-item" href="#">Price 1</a></li>
-            <li><a class="dropdown-item" href="#">Price 2</a></li>
-            <li><a class="dropdown-item" href="#">Price 3</a></li>
-          </ul>
-        </div>
-        <div class="dropdown col-md-2">
-          <button class="dropDownButton btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-            Brand
-          </button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            <li><a class="dropdown-item" href="#">Brand 1</a></li>
-            <li><a class="dropdown-item" href="#">Brand 2</a></li>
-            <li><a class="dropdown-item" href="#">Brand 3</a></li>
-          </ul>
-        </div>
-      </duv>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer-links">
+        <a>Guide</a>
+        <a>Support</a>
+        <a>About us</a>
+        <a>Copyright</a>
+      </div>
+      <div class="footer-icons">
+        <i class="fa fa-instagram fa-2x"></i>
+        <i class="fa fa-twitter fa-2x"></i>
+        <i class="fa fa-facebook fa-2x"></i>
+      </div>
     </div>
   </body>
   <script
