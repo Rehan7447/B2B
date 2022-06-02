@@ -144,8 +144,7 @@ select {
   border: 1px solid black;
 }
 .mycard {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px auto;
   text-align: center;
   display: flex;
   flex-direction: column;
