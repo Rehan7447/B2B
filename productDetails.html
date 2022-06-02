@@ -10,6 +10,10 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="./assets/css/styles.css" />
     <link rel="stylesheet" href="./assets/css/productDetails.css" />
     <title>Product Details</title>
@@ -59,7 +63,7 @@
               <p>LOT</p>
               <p>5737</p>
             </div>
-            <p class="linePD" ></p>
+            <p class="linePD"></p>
             <div>
               <h3>Product Name or Title</h3>
             </div>
@@ -72,7 +76,217 @@
               bids
             </p>
           </div>
-          <div></div>
+          <div class="row">
+            <div class="col-md-5">
+              <div class="containerImageSlide">
+                <!-- Full-width images with number text -->
+                <div class="mySlides">
+                  <div class="numbertext">1 / 6</div>
+                  <img src="./assets/images/1.jpg" />
+                </div>
+
+                <div class="mySlides">
+                  <div class="numbertext">2 / 6</div>
+                  <img src="./assets/images/2.jpg" />
+                </div>
+
+                <div class="mySlides">
+                  <div class="numbertext">3 / 6</div>
+                  <img src="./assets/images/3.jpg" />
+                </div>
+
+                <div class="mySlides">
+                  <div class="numbertext">4 / 6</div>
+                  <img src="./assets/images/4.jpg" />
+                </div>
+
+                <div class="mySlides">
+                  <div class="numbertext">5 / 6</div>
+                  <img src="./assets/images/5.jpg" />
+                </div>
+
+                <div class="mySlides">
+                  <div class="numbertext">6 / 6</div>
+                  <img src="./assets/images/6.jpg" />
+                </div>
+
+                <!-- Image text -->
+                <div class="caption-container">
+                  <p id="caption"></p>
+                </div>
+
+                <!-- Thumbnail images -->
+                <div class="row thumbs">
+                  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+
+                  <div class="column">
+                    <img
+                      class="demo cursor"
+                      src="./assets/images/1.jpg"
+                      style="width: 100%"
+                      onclick="currentSlide(1)"
+                      alt="Pak Monu 1"
+                    />
+                  </div>
+                  <div class="column">
+                    <img
+                      class="demo cursor"
+                      src="./assets/images/2.jpg"
+                      style="width: 100%"
+                      onclick="currentSlide(2)"
+                      alt="Pak Monu 2"
+                    />
+                  </div>
+                  <div class="column">
+                    <img
+                      class="demo cursor"
+                      src="./assets/images/3.jpg"
+                      style="width: 100%"
+                      onclick="currentSlide(3)"
+                      alt="Pak Monu 3"
+                    />
+                  </div>
+                  <div class="column">
+                    <img
+                      class="demo cursor"
+                      src="./assets/images/4.jpg"
+                      style="width: 100%"
+                      onclick="currentSlide(4)"
+                      alt="Pak Monu 4"
+                    />
+                  </div>
+                  <div class="column">
+                    <img
+                      class="demo cursor"
+                      src="./assets/images/5.jpg"
+                      style="width: 100%"
+                      onclick="currentSlide(5)"
+                      alt="Pak Monu 5"
+                    />
+                  </div>
+                  <div class="column">
+                    <img
+                      class="demo cursor"
+                      src="./assets/images/6.jpg"
+                      style="width: 100%"
+                      onclick="currentSlide(6)"
+                      alt="Pak Monu 6"
+                    />
+                  </div>
+
+                  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-7">
+              <div class="searchDiv d-flex justify-content-between">
+                <p>&#10094; Previous Lot</p>
+                <input
+                  type="text"
+                  placeholder="Search"
+                  class="search form-control"
+                />
+                <p>Next Lot &#10095;</p>
+              </div>
+              <div class="counter">
+                <hr />
+                <p>
+                  Time Left: <span>3h 45m 3s</span> | <span>Today 6:10pm</span>
+                </p>
+                <hr />
+              </div>
+              <div class="currentBid d-flex justify-content-between">
+                <p>Current Bid:</p>
+                <h3>$71,000.00</h3>
+                <p>[23bids]</p>
+              </div>
+              <div class="buttonsTop">
+                <button class="btn btn-primary">Bid Amount</button>
+                <button class="btn btn-primary">Place Bid</button>
+              </div>
+              <p class="productInfoText">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro,
+                vero, quos nesciunt optio esse aut totam dolor officia sint
+                praesentium provident earum atque repellendus, beatae
+                consequuntur? Illum ad doloribus omnis.
+              </p>
+              <hr />
+              <div class="shareProduct">
+                <p class="share">
+                  <i class="fa fa-heart-o" aria-hidden="true"></i> Follow
+                </p>
+                <p class="divide"></p>
+                <p class="watch">
+                  <i class="fa fa-eye" aria-hidden="true"></i> 45 Watchers
+                </p>
+              </div>
+              <hr />
+            </div>
+          </div>
+          <div class="tableContent">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">First</th>
+                  <th scope="col">Last</th>
+                  <th scope="col">Handle</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td colspan="2">Larry the Bird</td>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="paginateNav">
+              <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                      <span aria-hidden="true">&laquo;</span>
+                    </a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">&raquo;</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="footer-links">
+          <a>Guide</a>
+          <a>Support</a>
+          <a>About us</a>
+          <a>Copyright</a>
+        </div>
+        <div class="footer-icons">
+          <i class="fa fa-instagram fa-2x"></i>
+          <i class="fa fa-twitter fa-2x"></i>
+          <i class="fa fa-facebook fa-2x"></i>
         </div>
       </div>
     </body>
@@ -82,4 +296,40 @@
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"
   ></script>
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    // Next/previous controls
+    function plusSlides(n) {
+      showSlides((slideIndex += n));
+    }
+
+    // Thumbnail image controls
+    function currentSlide(n) {
+      showSlides((slideIndex = n));
+    }
+
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("demo");
+      let captionText = document.getElementById("caption");
+      if (n > slides.length) {
+        slideIndex = 1;
+      }
+      if (n < 1) {
+        slideIndex = slides.length;
+      }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      captionText.innerHTML = dots[slideIndex - 1].alt;
+    }
+  </script>
 </html>

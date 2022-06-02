@@ -23,5 +23,157 @@
 .detailsCheckSign {
   background-color: rgba(162, 158, 158, 0.626);
   padding: 10px 10px 5px;
-  border-radius: 0px 0px 10px 10px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  width: 100%;
+  height: 340px;
+  display: flex;
+  justify-content: center;
+}
+
+.mySlides img {
+  width: 100%;
+  height: 340px;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  position: absolute;
+  cursor: pointer;
+  width: auto;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  margin-top: -10px;
+  text-decoration: none;
+}
+
+.next {
+  left: 40%;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.thumbs {
+  padding: 0px 12px;
+}
+
+.thumbs img {
+  width: 300px;
+  height: 50px;
+}
+
+.containerImageSlide .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.containerImageSlide .column {
+  float: left;
+  width: 16.66%;
+  padding: 0px;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.searchDiv {
+  margin: 15px 5px 10px;
+}
+
+.searchDiv p {
+  margin-top: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.search {
+  height: 50px;
+  width: 60%;
+  margin: auto;
+}
+
+.counter span,
+.counter p {
+  margin: auto 10px;
+}
+
+.buttonsTop {
+  margin: 20px auto 40px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.buttonsTop button {
+  margin: auto 5px;
+  width: 250px;
+}
+
+.productInfoText {
+  margin-top: -10px;
+}
+
+.shareProduct {
+  display: flex;
+  justify-content: center;
+}
+
+.shareProduct p {
+  margin: auto 20px;
+}
+
+.divide {
+  border-left: 1px solid black;
+  height: 30px;
+}
+
+.tableContent {
+  margin: 40px auto;
+  width: 85%;
+}
+
+.tableContent table {
+  margin-bottom: 100px;
+}
+
+.paginateNav {
+  display: flex;
+  justify-content: center;
 }
