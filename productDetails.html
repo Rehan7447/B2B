@@ -21,7 +21,7 @@
   <body>
     <body>
       <nav class="header navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
+        <div class="container-fluid mainPD" style="padding: 0">
           <a class="navbar-brand" href="./index.html">Logo</a>
           <button
             class="navbar-toggler"
@@ -70,7 +70,7 @@
           </div>
           <div class="detailsCheckSign">
             <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
-            <p>
+            <p style="display: inline-block">
               Please <a href="./login.html" style="color: red">Login</a> or
               <a href="./signUp.html" style="color: red">Register</a> to place
               bids
@@ -111,7 +111,7 @@
                 </div>
 
                 <!-- Image text -->
-                <div class="caption-container">
+                <div class="caption-container" style="display: none">
                   <p id="caption"></p>
                 </div>
 
@@ -201,7 +201,12 @@
                 <p>[23bids]</p>
               </div>
               <div class="buttonsTop">
-                <button class="btn btn-primary">Bid Amount</button>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Bid Amount"
+                  style="max-width: 200px"
+                />
                 <button class="btn btn-primary">Place Bid</button>
               </div>
               <p class="productInfoText">
@@ -210,17 +215,24 @@
                 praesentium provident earum atque repellendus, beatae
                 consequuntur? Illum ad doloribus omnis.
               </p>
-              <hr />
-              <div class="shareProduct">
-                <p class="share">
-                  <i class="fa fa-heart-o" aria-hidden="true"></i> Follow
-                </p>
-                <p class="divide"></p>
-                <p class="watch">
-                  <i class="fa fa-eye" aria-hidden="true"></i> 45 Watchers
-                </p>
+              <div class="watchLike">
+                <hr />
+                <div class="shareProduct">
+                  <p class="share">
+                    <i
+                      class="fa fa-heart-o"
+                      aria-hidden="true"
+                      style="color: red; cursor: pointer"
+                    ></i>
+                    Follow
+                  </p>
+                  <p class="divide"></p>
+                  <p class="watch">
+                    <i class="fa fa-eye" aria-hidden="true"></i> 45 Watchers
+                  </p>
+                </div>
+                <hr />
               </div>
-              <hr />
             </div>
           </div>
           <div class="tableContent">

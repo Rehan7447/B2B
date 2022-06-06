@@ -135,7 +135,7 @@
 }
 
 .buttonsTop {
-  margin: 20px auto 40px;
+  margin: 5px auto 30px;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -152,7 +152,7 @@
 
 .shareProduct {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .shareProduct p {
@@ -161,7 +161,7 @@
 
 .divide {
   border-left: 1px solid black;
-  height: 30px;
+  height: 50px;
 }
 
 .tableContent {

@@ -1,7 +1,13 @@
 .collapse {
   display: flex;
   justify-content: space-between;
-  margin-left: 30%;
+  margin-left: 32%;
+}
+
+@media (min-width: 1900px) {
+  .collapse {
+    margin-left: 36%;
+  }
 }
 
 .header a {
@@ -182,3 +188,8 @@ select {
 .arrow-icons i {
   margin-right: 10px;
 }
+
+.watchLike hr {
+  margin: 0;
+}
+
