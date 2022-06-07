@@ -10,6 +10,19 @@
   }
 }
 
+@media (max-width: 990px) {
+  .collapse {
+    display: inline-block;
+    margin-left: 0;
+  }
+  .loginHeader {
+    display: inline-block !important;
+  }
+  .loginHeader a {
+    padding-left: 0px;
+  }
+}
+
 .header a {
   color: black;
 }
@@ -63,8 +76,10 @@
   margin-top: 20px;
 }
 .callender-hero-img {
-  width: 400px;
+  width: 100%;
+  min-width: 200px;
   height: 400px;
+  margin: auto;
 }
 .calender-button-container {
   display: flex;
@@ -87,9 +102,6 @@ select {
 }
 .callender-select-container {
   margin-top: 20px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
 }
 .callender-product-container {
   margin-top: 30px;
@@ -150,7 +162,7 @@ select {
   border: 1px solid black;
 }
 .mycard {
-  margin: 20px auto;
+  margin: 20px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -178,7 +190,16 @@ select {
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 200px;
+  border-right: 1px solid black;
 }
+
+@media (max-width: 768px) {
+  .my-arrow {
+    border-right: none;
+  }
+}
+
 .arrow-icons {
   display: flex;
 }
@@ -193,3 +214,10 @@ select {
   margin: 0;
 }
 
+.callender-select-container select {
+  margin: 5px 0;
+}
+
+.selects {
+  margin: auto;
+}

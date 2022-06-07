@@ -159,6 +159,12 @@
   margin: auto 20px;
 }
 
+@media (max-width: 367px) {
+  .shareProduct p {
+    margin: auto 5px;
+  }
+}
+
 .divide {
   border-left: 1px solid black;
   height: 50px;
@@ -169,8 +175,21 @@
   width: 85%;
 }
 
+@media (max-width: 600px) {
+  .table-responsive {
+    min-width: 300px;
+    margin-left: -35px;
+  }
+}
+@media (max-width: 350px) {
+  .table-responsive {
+    min-width: 300px;
+    margin-left: -45px;
+  }
+}
 .tableContent table {
   margin-bottom: 100px;
+  overflow-x: scroll;
 }
 
 table th,
@@ -209,4 +228,21 @@ tbody tr:nth-child(even) {
 
 .pagination .active {
   background-color: aliceblue;
+}
+
+.small {
+  display: none;
+}
+
+.big {
+  display: inline-block;
+}
+
+@media (max-width: 600px) {
+  .small {
+    display: inline-block;
+  }
+  .big {
+    display: none;
+  }
 }
